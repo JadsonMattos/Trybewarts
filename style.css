@@ -1,0 +1,190 @@
+* {
+  font-family: Inknut Antiqua, serif;
+}
+
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  padding: 1px 20px;
+  height: 70px;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+  margin-left: 15px;
+}
+
+#trybewarts-header-title {
+  text-align: center;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  width: 60%;
+}
+
+.email {
+  width: 200px;
+  margin: 0 10px;
+  border-radius: 15px;
+}
+
+.password {
+  width: 200px;
+  margin: 0 10px;
+  border-radius: 15px;
+}
+
+.btn-login {
+  width: 100px;
+  margin: 0 15px;
+  border-radius: 15px;
+  background-color: rgb(16, 16, 128);
+  color: white;
+}
+
+h3 {
+  text-align: center;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+}
+
+#row {
+  display: flex;
+  align-self: flex-start;
+  padding: 0 50px;
+}
+
+#input-name {
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+#input-lastname {
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+#input-email {
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+#house {
+  width: 220px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#row2 {
+  display: flex;
+  align-self: flex-start;
+  margin: 10px 0;
+  padding: 0 50px;
+}
+
+#label-family {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+}
+
+#center-label {
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+#center-checkbox {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  width: 60%;
+}
+
+.item-checkbox {
+  margin: 0 40px;
+  padding: 0 30px;
+}
+
+.family-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 60%;
+}
+
+#label-content {
+  display: flex;
+  margin-left: 40px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.text-area {
+  margin-left: 50px;
+}
+
+.textarea {
+  display: block;
+}
+
+#textarea {
+  width: 100%;
+  height: 100px;
+}
+
+#label-infos {
+  margin-left: 50px;
+}
+
+#label-rate {
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+footer {
+  background-color: rgb(107, 106, 106);
+  color: white;
+  text-align: center;
+}
